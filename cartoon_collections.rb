@@ -23,9 +23,15 @@ def summon_captain_planet(array) # code an argument here
   end
   nu_array
 end
-summon_captain_planet
-def long_planeteer_calls# code an argument here
+summon_captain_planet(planeteer_calls)
+
+def long_planeteer_calls(array)# code an argument here
   # Your code here
+  i= 0 
+  if array.any? { |i| i.length >4}
+    return true 
+  else
+    return false
 end
 
 def find_the_cheese# code an argument here
